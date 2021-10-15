@@ -1,0 +1,148 @@
+.user {
+  flex: 4;
+  padding: 1rem;
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userAddBtn {
+  width: 90px;
+  border: none;
+  overflow: hidden;
+  background: cornflowerblue;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #f3f3f3;
+  font-size: 1rem;
+  padding: 4px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  background: #f3f3f3;
+  margin-right: 10px;
+  padding: 1rem 0;
+}
+.userUpdate {
+  flex: 2;
+  background: #f3f3f3;
+  padding: 20px 20px;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.userShowTitle {
+  color: #bbb;
+  margin-bottom: 16px;
+}
+
+.userShowBottom {
+  margin-top: 18px;
+  padding: 6px 6px;
+}
+.first_div {
+  margin-top: 5px;
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.userShowIcon {
+  margin-right: 10px;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.userShowUsername {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.userShowUserTitle {
+  font-size: 0.8rem;
+}
+
+.userUpdateTitle {
+  font-size: 21px;
+  font-weight: 600;
+  color: #333;
+}
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11px;
+}
+.userUpdateItem > label {
+  margin-bottom: 7px;
+  font-size: 14px;
+  color: #333;
+}
+
+.userUpdateInput {
+  border: none;
+  overflow: hidden;
+  width: 220px;
+  padding: 10px 4px;
+  border-bottom: 1.8px solid rgb(133, 86, 86);
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdateImg {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.userUpdateIcon {
+  cursor: pointer;
+}
+
+.userUpdateBtn {
+  border: none;
+  border-radius: 6px;
+  padding: 4px;
+  background: cornflowerblue;
+  color: #f3f3f3;
+  font-weight: 600;
+  cursor: pointer;
+}

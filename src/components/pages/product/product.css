@@ -1,0 +1,130 @@
+.product {
+  flex: 4;
+  padding: 23px;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddBtn {
+  width: 75px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  background: cornflowerblue;
+  color: #f3f3f3;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+.productTopRight {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+}
+
+.productImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 600;
+}
+
+.productInfoBottom {
+  margin-top: 11px;
+}
+
+.productInfoItem {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productBottom {
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  padding: 20px;
+  margin: 20px;
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label {
+  margin-bottom: 11px;
+  color: gainsboro;
+}
+
+.productFormLeft > input {
+  margin-bottom: 11px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  padding: 6px;
+  border-bottom: 1px solid crimson;
+}
+
+.productFormLeft > select {
+  margin-bottom: 11px;
+}
+
+.productUploadImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+
+.productBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  background: cornflowerblue;
+  color: #f3f3f3;
+  font-weight: 600;
+  cursor: pointer;
+}

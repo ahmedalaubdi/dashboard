@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Sidebar from "./components/sidebar/Sidebar";
+import Topbar from "./components/topBar/Topbar";
+import "./app.css";
+import Home from "./components/pages/home/Home";
+import UserList from "./components/pages/userList/UserList";
+import User from "./components/pages/home/user/User";
+import NewUser from "./components/pages/newUser/NewUser";
+import ProductList from "./components/pages/productList/ProductList";
+import Product from "./components/pages/product/Product";
+import NewProduct from "./components/pages/newProduct/NewProduct";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <Topbar />
+        <div className="container">
+          <Sidebar />
+          <Switch>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/users">
+              <UserList />
+            </Route>
+            <Route path="/user/:userId">
+              <User />
+            </Route>
+            <Route path="/newUser">
+              <NewUser />
+            </Route>
+            <Route path="/products">
+              <ProductList />
+            </Route>
+            <Route path="/product/:productId">
+              <Product />
+            </Route>
+            <Route path="/newProduct">
+              <NewProduct />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

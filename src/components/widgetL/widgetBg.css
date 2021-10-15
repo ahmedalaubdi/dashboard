@@ -1,0 +1,47 @@
+.widgetBg {
+  flex: 2;
+  box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(53, 25, 25, 0.71);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(0, 0, 0, 0.71);
+}
+
+.widgetBgUser {
+  display: flex;
+  align-items: center;
+}
+
+.widgetBgImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 9px;
+}
+
+.widgetBgDate,
+.widgetBgAmount {
+  color: gray;
+  font-size: 0.8rem;
+}
+.widgetBgBtn {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+.widgetBgBtn.Approved {
+  background: azure;
+}
+.widgetBgBtn.Declared {
+  background: coral;
+}
+.widgetBgBtn.Binding {
+  background: grey;
+}
+
+.widgetBgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetBgTh {
+  text-align: left;
+}
